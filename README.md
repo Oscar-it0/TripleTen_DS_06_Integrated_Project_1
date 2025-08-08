@@ -1,102 +1,102 @@
-#  Sprint 6: Proyecto del Módulo 1 - Análisis de Videojuegos
-##  Descripción General
+# Sprint 6 - Module 1 Project: Video Game Analysis - Ice
 
-Este proyecto marca el cierre del primer módulo del curso. El objetivo es aplicar todas las habilidades adquiridas hasta ahora en un estudio de caso del mundo real: analizar datos de ventas de videojuegos para identificar patrones de éxito y apoyar decisiones estratégicas de marketing.
+## Project Description
 
-Trabajas para la tienda online **Ice**, que vende videojuegos a nivel mundial. Utilizarás datos históricos hasta 2016 para planificar una campaña para 2017.
+This project marks the conclusion of the first module of the course. The objective is to apply all the skills acquired so far in a real-world case study: analyzing video game sales data to identify success patterns and support strategic marketing decisions.
 
----
-
-##  Contenido del Proyecto
-- Análisis exploratorio de datos
-- Limpieza y transformación de datos
-- Visualización de tendencias
-- Pruebas de hipótesis
-- Segmentación por regiones
-- Conclusiones estratégicas
+The online store **Ice** sells video games worldwide. Historical data through 2016 is used to plan a campaign for 2017.
 
 ---
 
-##  Descripción del Dataset
-El archivo de datos se encuentra en: `/datasets/games.csv`
+## Project Content
 
-Columnas disponibles:
-
-- `name`: Nombre del videojuego
-- `platform`: Plataforma (e.g., Xbox, PlayStation)
-- `year_of_release`: Año de lanzamiento
-- `genre`: Género
-- `na_sales`, `eu_sales`, `jp_sales`, `other_sales`: Ventas por región (en millones USD)
-- `critic_score`: Puntuación de críticos (0-100)
-- `user_score`: Puntuación de usuarios (0-10)
-- `rating`: Clasificación ESRB
+- Exploratory data analysis
+- Data cleaning and transformation
+- Trend visualization
+- Hypothesis testing
+- Regional segmentation
+- Strategic conclusions
 
 ---
 
-##  Paso 1: Preparación de los Datos
-- Renombrar columnas a minúsculas
-- Conversión de tipos de datos
-- Manejo de valores ausentes (incluyendo "TBD")
-- Cálculo de ventas globales por juego
+## Dataset
+`games.csv`
+
+Available columns:
+
+- `name`: Video game name
+- `platform`: Platform (e.g., Xbox, PlayStation)
+- `year_of_release`: Release year
+- `genre`: Genre
+- `na_sales`, `eu_sales`, `jp_sales`, `other_sales`: Sales by region (in millions of USD)
+- `critic_score`: Critic score (0-100)
+- `user_score`: User score (0-10)
+- `rating`: Rating ESRB
 
 ---
 
-##  Paso 2: Análisis Exploratorio
-
-- Juegos lanzados por año
-- Ventas por plataforma y evolución temporal
-- Identificación de plataformas líderes y emergentes
-- Análisis de reseñas vs. ventas
-- Distribución de géneros y su rentabilidad
+## Step 1: Data Preparation
+- Rename columns to lowercase
+- Convert data types
+- Handle missing values (including "TBD")
+- Calculate global sales per game
 
 ---
 
-##  Paso 3: Perfil de Usuario por Región
-Para cada región (NA, EU, JP):
+## Step 2: Exploratory Analysis
 
-- Top 5 plataformas
-- Top 5 géneros
-- Impacto de la clasificación ESRB en ventas
----
-
-##  Paso 4: Pruebas de Hipótesis
-
-Hipótesis evaluadas:
-
-1. Las calificaciones promedio de usuarios para **Xbox One** y **PC** son iguales.
-2. Las calificaciones promedio de usuarios para los géneros **Acción** y **Deportes** son diferentes.
-
-- Definición de hipótesis nula y alternativa
-- Selección del valor alfa
-- Justificación del método estadístico utilizado
-- Interpretación de resultados
+- Games released by year
+- Sales by platform and evolution over time
+- Identification of leading and emerging platforms
+- Analysis of reviews vs. sales
+- Distribution of genres and their profitability
 
 ---
 
-##  Paso 5: Conclusiones
+## Step 3: User Profile by Region
+For each region (NA, EU, JP):
 
-- Resumen de hallazgos clave
-- Recomendaciones para campañas de marketing
-- Reflexión sobre el proceso analítico
+- Top 5 platforms
+- Top 5 genres
+- Impact of the ESRB rating on sales
+---
+
+## Step 4: Hypothesis Testing
+
+Hypotheses evaluated:
+
+1. The average user ratings for **Xbox One** and **PC** are the same.
+2. The average user ratings for the **Action** and **Sports** genres are different.
+
+- Definition of null and alternative hypotheses
+- Selection of alpha value
+- Justification of the statistical method used
+- Interpretation of results
 
 ---
 
-##  Evaluación del Proyecto
+## Step 5: Conclusions
 
-El proyecto será evaluado en base a:
-
-- Calidad de la limpieza y análisis de datos
-- Claridad en visualizaciones y explicaciones
-- Razonamiento estadístico en pruebas de hipótesis
-- Organización del notebook y comentarios
-- Conclusiones bien fundamentadas
+- Summary of key findings
+- Recommendations for marketing campaigns
+- Reflection on the analytical process
 
 ---
 
-##  Herramientas Utilizadas
+## Checklist
 
-- Python (pandas, matplotlib, seaborn, scipy)
-- Jupyter Notebook
+- Quality of data cleaning and analysis
+- Clarity of visualizations and explanations
+- Statistical reasoning in hypothesis testing
+- Notebook organization and comments
+- Well-founded conclusions
 
 ---
 
+## Tools
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- SciPy
