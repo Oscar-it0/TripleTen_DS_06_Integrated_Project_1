@@ -8,78 +8,39 @@ The online store **Ice** sells video games worldwide. Historical data through 20
 
 ---
 
+## Dataset
+
+| Column | Description |
+|-----------|-------------|
+| `name` |  Video game name |
+| `platform` |  Platform (e.g., Xbox, PlayStation) |
+| `year_of_release` |  Release year |
+| `genre` |  Genre |
+| `na_sales`, `eu_sales`, `jp_sales`, `other_sales` |  Sales by region (in millions of USD) |
+| `critic_score` |  Critic score (0-100) |
+| `user_score` |  User score (0-10) |
+| `rating` |  Rating ESRB |
+
+---
+
 ## Project Content
 
-- Exploratory data analysis
-- Data cleaning and transformation
-- Trend visualization
-- Hypothesis testing
-- Regional segmentation
-- Strategic conclusions
+1. Exploratory data Analysis
+2. Data cleaning and transformation
+3. Trend visualization
+4. Hypothesis testing
+5. Regional segmentation
+6. Strategic conclusions
 
 ---
 
-## Dataset
-`games.csv`
+## Project Stages
 
-Available columns:
-
-- `name`: Video game name
-- `platform`: Platform (e.g., Xbox, PlayStation)
-- `year_of_release`: Release year
-- `genre`: Genre
-- `na_sales`, `eu_sales`, `jp_sales`, `other_sales`: Sales by region (in millions of USD)
-- `critic_score`: Critic score (0-100)
-- `user_score`: User score (0-10)
-- `rating`: Rating ESRB
-
----
-
-## Step 1: Data Preparation
-- Rename columns to lowercase
-- Convert data types
-- Handle missing values (including "TBD")
-- Calculate global sales per game
-
----
-
-## Step 2: Exploratory Analysis
-
-- Games released by year
-- Sales by platform and evolution over time
-- Identification of leading and emerging platforms
-- Analysis of reviews vs. sales
-- Distribution of genres and their profitability
-
----
-
-## Step 3: User Profile by Region
-For each region (NA, EU, JP):
-
-- Top 5 platforms
-- Top 5 genres
-- Impact of the ESRB rating on sales
----
-
-## Step 4: Hypothesis Testing
-
-Hypotheses evaluated:
-
-1. The average user ratings for **Xbox One** and **PC** are the same.
-2. The average user ratings for the **Action** and **Sports** genres are different.
-
-- Definition of null and alternative hypotheses
-- Selection of alpha value
-- Justification of the statistical method used
-- Interpretation of results
-
----
-
-## Step 5: Conclusions
-
-- Summary of key findings
-- Recommendations for marketing campaigns
-- Reflection on the analytical process
+1. Data Preparation
+2. Exploratory Analysis
+3. User Profile by Region
+4. Hypothesis Testing
+5. Conclusions
 
 ---
 
@@ -100,3 +61,5 @@ Hypotheses evaluated:
 - Matplotlib
 - Seaborn
 - SciPy
+
+---
